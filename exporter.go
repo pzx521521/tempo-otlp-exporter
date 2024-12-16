@@ -1,4 +1,4 @@
-package exporter
+package tempo_otlp_exporter
 
 import (
 	"context"
