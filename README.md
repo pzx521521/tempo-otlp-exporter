@@ -4,12 +4,12 @@ replace alloy/opentelemetry collector/Jaeger Agent
 ![](https://grafana.com/docs/tempo/latest/getting-started/assets/tempo-get-started-overview.svg)
     ```mermaid
     flowchart LR
-      A["App\notel library"] --grpc_4317/http_4318--> C["(Pipeline)\nalloy\nopentelemetry collector\nJaeger Agent"]--grpc-->D[tempo]
+      A["App<br>otel library"] --grpc_4317/http_4318--> C["(Pipeline)<br>alloy<br>opentelemetry collector<br>Jaeger Agent"]--grpc-->D[tempo]
     ```
 + now
   ```mermaid
   flowchart LR
-    A["App\notel library\ntempo-otlp-exporter"] --grpc-->D[tempo]
+    A["App<br>otel library<br>tempo-otlp-exporter"] --grpc-->D[tempo]
   ```
 # warning
 If the network fails, all data will be lost.  
